@@ -143,7 +143,7 @@
                         success: function() {
                             $('.data').load("data.php");
                             document.getElementById("id").value="";
-                            document.getElementById("form-data").reset="";
+                            document.getElementById("form-data").reset();
                         }, error: function(response) {
                             console.log(response.responseText);
                         }
